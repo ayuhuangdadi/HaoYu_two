@@ -1,0 +1,5 @@
+<!--index/ajaxdom/ajaxdom.wxml-->
+<text>index/ajaxdom/ajaxdom.wxml</text>
+<view>
+  <input></input>
+</view>

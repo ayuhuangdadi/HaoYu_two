@@ -1,0 +1,23 @@
+<!--index/crout/crout.wxml-->
+<view class=''>
+  <block wx:for="{{artData}}">
+  <view bindtap="todetail" data-id="{{item.id}}">
+  
+    <text>
+      {{item.title}}
+    </text>
+
+    <image class="star" src="../../images/star1.png"> </image>
+	  <image class="star" src="../../images/star2.png"></image>
+
+    <text>
+      {{item.roating}}
+    </text>
+
+    <text>
+      {{item.content}}
+    </text>
+  </view>
+    
+  </block>
+</view>

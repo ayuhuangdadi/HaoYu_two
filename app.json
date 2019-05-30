@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/list/list",
+    "index/crout/crout",
+    "pages/artlist/artlist",
+    "pages/wode/wode",
+    "pages/index/index",
+    "index/event/event",
+    "index/detail/detail",
+    "pages/animate/animate",
+    "pages/backauto/backauto",
+    "index/ajaxdom/ajaxdom",
+    "index/index/index",
+    "pages/tmpl/tmpl",
+    "pages/logs/logs"
+  ],
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#657788",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "black",
+    "selectedColor": "blue",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "首页",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "列表",
+        "iconPath": "images/icons/weekly.png",
+        "selectedIconPath": "images/icons/weekly-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

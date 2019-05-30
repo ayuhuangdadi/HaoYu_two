@@ -1,0 +1,6 @@
+/* index/crout/crout.wxss */
+image{
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+}

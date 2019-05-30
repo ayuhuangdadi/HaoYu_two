@@ -1,0 +1,9 @@
+function formdate(time){
+  console.log(time)
+  var date = getDate(time)
+  console.log(date)
+  return date.getFullYear()+"-"+date.getMonth()+"-"+date.getDay()
+}
+module.exports = {
+  formdate:formdate
+}

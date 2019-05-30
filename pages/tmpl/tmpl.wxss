@@ -1,0 +1,6 @@
+/* pages/tmpl/tmpl.wxss */
+image{
+  width: 40rpx;
+  height: 40rpx;
+  display: inline-block;
+}

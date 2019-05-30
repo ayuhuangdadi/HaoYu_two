@@ -1,0 +1,2 @@
+<button bindtap='playmusic'>{{musicflag?'播放':'暂停'}}</button>
+

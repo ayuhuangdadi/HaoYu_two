@@ -1,0 +1,14 @@
+<view class='topvivo' wx:for="{{item}}">
+  <view class='logo'></view>
+  <view class='title'>{{item.title}}</view>
+  <view class='tlright'>{{item.tiright}}</view>
+  <view>
+    <image :src='imgsrc'></image>
+  </view>
+  <view class='xian'>
+    <view class='more'>{{item.more}}</view>
+    <view class='piao'>{{item.piao}}</view>
+    <view class='wuliu'>{{item.wuliu}}</view>
+    <view class='ping'>{{item.ping}}</view>
+  </view>
+</view>

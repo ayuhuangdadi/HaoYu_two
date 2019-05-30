@@ -1,0 +1,13 @@
+<!--pages/artlist/artlist.wxml-->
+<view>
+  <block wx:for="{{artData}}">
+    <view bindtap='todetail' data-id='{{item.id}}'>
+      <scroll-view style='height:600rpx;' scroll-y="true" bindscrolltolower="tobottom">
+        <view>
+        {{item.title}}
+        </view>
+        <view></view>
+      </scroll-view>
+    </view>
+  </block>
+</view>

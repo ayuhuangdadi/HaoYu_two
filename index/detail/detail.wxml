@@ -1,0 +1,8 @@
+<!--index/detail/detail.wxml-->
+<import src="../../pages/tmpl/tmpl.wxml" />
+ <include src="../index/index" />
+<view>
+one two three
+<!-- is 对应的是你定义的模板的name -->
+  <template data="{{singleData}}" is="list-item"></template>
+</view>

@@ -1,0 +1,73 @@
+/* pages/list/list.wxss */
+ page {
+  background-color: #F5F5F5;
+} 
+.topvivo{
+  width: 85%;
+  height: 500rpx;
+  background-color: #fff;
+  border-radius: 30rpx 30rpx;
+  margin: 100rpx auto;
+  padding: 30rpx;
+  position: relative;
+}
+.logo{
+  width: 40rpx;
+  height: 40rpx;
+  background-image: url(//gw.alicdn.com/tfs/TB1VIPWSXXXXXXGXVXXXXXXXXXX-63-63.png_200x200q85s150.jpg_.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+}
+.title{
+  height: 40rpx;
+  display: inline-block;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  vertical-align:text-top;
+}
+.tlright{
+  display: inline-block;
+  font-size: 28rpx;
+  vertical-align:text-top;
+  position: absolute;
+  right: 30rpx;
+  color: red;
+}
+.xian{
+  height: 80rpx;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 20rpx;
+  border-top: 2rpx solid #F5F5F5;
+}
+.xian>view{
+  height: 60rpx;
+  width: 160rpx;
+  text-align: center;
+  display: inline-block;  
+  margin-right: 10rpx;
+  font-size: 34rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+}
+.more{
+  color: #666666;
+}
+.wuliu{
+  border: 2rpx solid #666666;
+  border-radius: 30rpx 30rpx;
+  color: #666666;
+}
+.piao{
+  border: 2rpx solid #666666;
+  border-radius: 30rpx 30rpx;
+  color: #666666;
+}
+.ping{
+  color: #85d819;
+  border: 2rpx solid #85d819;
+  border-radius: 30rpx 30rpx;
+}

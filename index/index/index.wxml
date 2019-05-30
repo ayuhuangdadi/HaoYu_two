@@ -1,0 +1,38 @@
+<!--index/index/index.wxml-->
+<!-- view 盒子容器 -->
+<view>
+  <view wx:key="*this">
+    {{item}}
+  </view>
+  <text>{{msg}}</text>
+
+  <text wx:if="{{flag}}">
+    显示内容:{{msg}}
+  </text>
+
+  <text hidden="{{flag}}">
+    hidden: {{msg}}
+  </text>
+
+  <text>
+    {{flag?'显示true':'显示false'}}
+  </text>
+  <view wx:for="{{list}}">
+    {{item}}
+    <!-- 针对循环自动一项自动赋值叫做item 可以通过wx：for-item="a" -->
+  </view>
+<map
+  id="map"
+  longitude="113.324520"
+  latitude="23.099994"
+  scale="14"
+  controls="{{controls}}"
+  bindcontroltap="controltap"
+  markers="{{markers}}"
+  bindmarkertap="markertap"
+  polyline="{{polyline}}"
+  bindregionchange="regionchange"
+  show-location
+  style="width: 100%; height: 300px;"
+></map>
+</view>

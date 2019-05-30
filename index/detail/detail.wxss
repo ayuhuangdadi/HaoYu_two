@@ -1,0 +1,2 @@
+/* index/detail/detail.wxss */
+@import "../crout/crout.wxss";
