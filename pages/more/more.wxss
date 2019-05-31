@@ -1,0 +1,43 @@
+/* pages/more/more.wxss */
+ page {
+  background-color: #F5F5F5;
+} 
+.onebox{
+  width: 90%;
+  height: 150rpx;
+  background-color: white;
+  border-radius: 20rpx 20rpx;
+  margin: 40rpx auto;
+}
+.twobox{
+  width: 90%;
+  height: 400rpx;
+  background-color: white;
+  border-radius: 20rpx 20rpx;
+  margin: 40rpx auto;
+}
+.threebox{
+  width: 90%;
+  height: 100rpx;
+  background-color: white;
+  border-radius: 20rpx 20rpx;
+  margin: 40rpx auto;
+}
+.botbox{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+.botbox>view{
+  height: 80rpx;
+  width: 93%;
+  margin: 10rpx auto;
+  line-height: 80rpx;
+  text-align: center;
+  color: white;
+  font-size: 30rpx;
+  border-radius: 40rpx 40rpx;
+  background-image: linear-gradient(to right, #FD9126, #FF5000);
+}

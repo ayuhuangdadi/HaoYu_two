@@ -1,0 +1,32 @@
+<!--pages/more/more.wxml-->
+<view class='onebox'>
+
+</view>
+<view class='twobox'>
+  <view>
+    <text>{{item.leixing}}</text>
+    <text>{{dianzi}}</text>
+  </view>
+  <view>
+    <text></text>
+    <!-- <label class="radio" wx:for="{{items}}">
+      <radio class="radio" value="{{item.name}}"/>
+    </label> -->
+    <radio-group wx:for="{{items}}" class="radio-group" bindchange="radioChange">
+              <label class="radio" >
+                  {{item.value}}<radio value="" checked=""/>
+              </label>
+    </radio-group>
+  </view>
+  <view>
+    <text></text>
+    <text></text>
+  </view>
+  <view></view>
+</view>
+<view class='threebox'>
+
+</view>
+<view class='botbox'>
+  <view>提交申请</view>
+</view>

@@ -1,1 +1,5 @@
 /* pages/wode/wode.wxss */
+.tao-top{
+  height: 400rpx;
+  background-image: linear-gradient(to right, #FD9126, #FF5000);
+}
